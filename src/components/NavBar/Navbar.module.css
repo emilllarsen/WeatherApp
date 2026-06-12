@@ -1,0 +1,33 @@
+.header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100px;
+}
+
+.nav{
+    display: flex;
+    gap: 10px;
+    margin-inline-end: 10px;
+}
+.inputBar{
+    border: var(--field-border);
+    border-radius: var(--search-field-radius);
+    outline: none;
+    padding: 0 2vw;
+    min-width: 250px;
+    background-color: var(--field-color);
+}
+
+.search, .themeToggle{
+    border-radius: var(--icons-radius);
+    border: var(--field-border);
+    background-color: var(--icon-color);
+    padding: 10px;
+}
+.search:hover, .themeToggle:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: rgba(120, 70, 40, .12);
+    transition: smooth;
+}

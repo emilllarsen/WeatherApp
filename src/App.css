@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --background-color: #f6ece0;
+  --card-color: #fbf2e8;
+  --field-color: #fbf1e7;
+  --text-color: #34221c;
+  --muted-color: #a8917f;
+  --icon-color: #efe1d4;
+
+  --card-radius: 18px;
+  --search-field-radius: 14px;
+  --icons-radius: 50%;
+  --forecast-radius: 4px;
+
+  --field-border: 1.5px solid #e7d6c6;
+  --card-border: 1.5px solid #ece0d2;
+  --divider-border: 1.5px solid #e7d8c8;
+
+  --temperature-range-bar: #E8B66E #C0532E ;
+  --aqi-scale: #69C779 #FFD24A #FF9F45 #F0683F #B65CC4;
+  --sunset-sky: #FFB25E #FF7E6B #9D4E8C;
+
+  --icons-box-shadow: rgba(120, 70, 40, .12);
+}
+.dark-mode {
+  --background-color: #181210;
+  --card-color: #221c16;
+  --field-color: #262018;
+  --text-color: #f0e6da;
+  --muted-color: #8a7e72;
+
+  --field-border: 1.5px solid #3a3026;
+  --card-border: 1.5px solid #3a3026;
+  --divider-border: 1.5px solid #3a3026;
+
+  --icons-box-shadow: rgba(0,0,0,.3);
+}
+
+body {
+  background-color: var(--background-color);
+}
